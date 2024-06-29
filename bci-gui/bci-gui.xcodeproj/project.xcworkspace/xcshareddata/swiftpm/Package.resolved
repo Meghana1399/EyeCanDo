@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "charts",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/danielgindi/Charts",
+      "state" : {
+        "revision" : "0a229f8c914b0ec93798cee058cf75b339297513",
+        "version" : "5.0.0"
+      }
+    },
+    {
+      "identity" : "codablefirebase",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alickbass/CodableFirebase",
+      "state" : {
+        "revision" : "a4cda89948db93ec21249a35ecdacab8c489a116",
+        "version" : "0.2.2"
+      }
+    },
+    {
+      "identity" : "eventsource",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/inaka/EventSource",
+      "state" : {
+        "branch" : "master",
+        "revision" : "78934b361891c7d0fa3d399d128e959f0c94d267"
+      }
+    }
+  ],
+  "version" : 2
+}

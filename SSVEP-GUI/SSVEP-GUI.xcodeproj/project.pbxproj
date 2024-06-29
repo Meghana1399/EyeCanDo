@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		952AA2AF292BCEB20099CE83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952AA2AE292BCEB20099CE83 /* AppDelegate.swift */; };
+		952AA2B1292BCEB20099CE83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952AA2B0292BCEB20099CE83 /* SceneDelegate.swift */; };
+		952AA2B3292BCEB20099CE83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952AA2B2292BCEB20099CE83 /* ViewController.swift */; };
+		952AA2B6292BCEB20099CE83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952AA2B4292BCEB20099CE83 /* Main.storyboard */; };
+		952AA2B8292BCEB30099CE83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952AA2B7292BCEB30099CE83 /* Assets.xcassets */; };
+		952AA2BB292BCEB30099CE83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952AA2B9292BCEB30099CE83 /* LaunchScreen.storyboard */; };
+		953831572980217B003EC8B5 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953831562980217B003EC8B5 /* KeyboardViewController.swift */; };
+		9538315B2980217C003EC8B5 /* BCIKeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 953831542980217B003EC8B5 /* BCIKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		953831592980217C003EC8B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 952AA2A3292BCEB20099CE83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 953831532980217B003EC8B5;
+			remoteInfo = BCIKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9538315C2980217C003EC8B5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9538315B2980217C003EC8B5 /* BCIKeyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		952AA2AB292BCEB20099CE83 /* SSVEP-GUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SSVEP-GUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		952AA2AE292BCEB20099CE83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		952AA2B0292BCEB20099CE83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		952AA2B2292BCEB20099CE83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		952AA2B5292BCEB20099CE83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		952AA2B7292BCEB30099CE83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		952AA2BA292BCEB30099CE83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		952AA2BC292BCEB30099CE83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953831542980217B003EC8B5 /* BCIKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BCIKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		953831562980217B003EC8B5 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		953831582980217B003EC8B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		952AA2A8292BCEB20099CE83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953831512980217B003EC8B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		952AA2A2292BCEB20099CE83 = {
+			isa = PBXGroup;
+			children = (
+				952AA2AD292BCEB20099CE83 /* SSVEP-GUI */,
+				953831552980217B003EC8B5 /* BCIKeyboard */,
+				952AA2AC292BCEB20099CE83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		952AA2AC292BCEB20099CE83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				952AA2AB292BCEB20099CE83 /* SSVEP-GUI.app */,
+				953831542980217B003EC8B5 /* BCIKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		952AA2AD292BCEB20099CE83 /* SSVEP-GUI */ = {
+			isa = PBXGroup;
+			children = (
+				952AA2AE292BCEB20099CE83 /* AppDelegate.swift */,
+				952AA2B0292BCEB20099CE83 /* SceneDelegate.swift */,
+				952AA2B2292BCEB20099CE83 /* ViewController.swift */,
+				952AA2B4292BCEB20099CE83 /* Main.storyboard */,
+				952AA2B7292BCEB30099CE83 /* Assets.xcassets */,
+				952AA2B9292BCEB30099CE83 /* LaunchScreen.storyboard */,
+				952AA2BC292BCEB30099CE83 /* Info.plist */,
+			);
+			path = "SSVEP-GUI";
+			sourceTree = "<group>";
+		};
+		953831552980217B003EC8B5 /* BCIKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				953831562980217B003EC8B5 /* KeyboardViewController.swift */,
+				953831582980217B003EC8B5 /* Info.plist */,
+			);
+			path = BCIKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		952AA2AA292BCEB20099CE83 /* SSVEP-GUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952AA2BF292BCEB30099CE83 /* Build configuration list for PBXNativeTarget "SSVEP-GUI" */;
+			buildPhases = (
+				952AA2A7292BCEB20099CE83 /* Sources */,
+				952AA2A8292BCEB20099CE83 /* Frameworks */,
+				952AA2A9292BCEB20099CE83 /* Resources */,
+				9538315C2980217C003EC8B5 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9538315A2980217C003EC8B5 /* PBXTargetDependency */,
+			);
+			name = "SSVEP-GUI";
+			productName = "SSVEP-GUI";
+			productReference = 952AA2AB292BCEB20099CE83 /* SSVEP-GUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		953831532980217B003EC8B5 /* BCIKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9538315F2980217C003EC8B5 /* Build configuration list for PBXNativeTarget "BCIKeyboard" */;
+			buildPhases = (
+				953831502980217B003EC8B5 /* Sources */,
+				953831512980217B003EC8B5 /* Frameworks */,
+				953831522980217B003EC8B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BCIKeyboard;
+			productName = BCIKeyboard;
+			productReference = 953831542980217B003EC8B5 /* BCIKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		952AA2A3292BCEB20099CE83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					952AA2AA292BCEB20099CE83 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					953831532980217B003EC8B5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 952AA2A6292BCEB20099CE83 /* Build configuration list for PBXProject "SSVEP-GUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 952AA2A2292BCEB20099CE83;
+			productRefGroup = 952AA2AC292BCEB20099CE83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				952AA2AA292BCEB20099CE83 /* SSVEP-GUI */,
+				953831532980217B003EC8B5 /* BCIKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		952AA2A9292BCEB20099CE83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952AA2BB292BCEB30099CE83 /* LaunchScreen.storyboard in Resources */,
+				952AA2B8292BCEB30099CE83 /* Assets.xcassets in Resources */,
+				952AA2B6292BCEB20099CE83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953831522980217B003EC8B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		952AA2A7292BCEB20099CE83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952AA2B3292BCEB20099CE83 /* ViewController.swift in Sources */,
+				952AA2AF292BCEB20099CE83 /* AppDelegate.swift in Sources */,
+				952AA2B1292BCEB20099CE83 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953831502980217B003EC8B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953831572980217B003EC8B5 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9538315A2980217C003EC8B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 953831532980217B003EC8B5 /* BCIKeyboard */;
+			targetProxy = 953831592980217C003EC8B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		952AA2B4292BCEB20099CE83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				952AA2B5292BCEB20099CE83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		952AA2B9292BCEB30099CE83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				952AA2BA292BCEB30099CE83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		952AA2BD292BCEB30099CE83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		952AA2BE292BCEB30099CE83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		952AA2C0292BCEB30099CE83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CBJ4LHW3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SSVEP-GUI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stonybrook.EyeCanDo.SSVEP-GUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		952AA2C1292BCEB30099CE83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CBJ4LHW3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SSVEP-GUI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stonybrook.EyeCanDo.SSVEP-GUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9538315D2980217C003EC8B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CBJ4LHW3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BCIKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BCIKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stonybrook.EyeCanDo.SSVEP-GUI.BCIKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9538315E2980217C003EC8B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CBJ4LHW3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BCIKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BCIKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stonybrook.EyeCanDo.SSVEP-GUI.BCIKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		952AA2A6292BCEB20099CE83 /* Build configuration list for PBXProject "SSVEP-GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952AA2BD292BCEB30099CE83 /* Debug */,
+				952AA2BE292BCEB30099CE83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952AA2BF292BCEB30099CE83 /* Build configuration list for PBXNativeTarget "SSVEP-GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952AA2C0292BCEB30099CE83 /* Debug */,
+				952AA2C1292BCEB30099CE83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9538315F2980217C003EC8B5 /* Build configuration list for PBXNativeTarget "BCIKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9538315D2980217C003EC8B5 /* Debug */,
+				9538315E2980217C003EC8B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 952AA2A3292BCEB20099CE83 /* Project object */;
+}
